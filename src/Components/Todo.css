@@ -1,0 +1,26 @@
+.todo{
+    width: 700px;
+    padding: 50px;
+    margin: 10px 0;
+    box-shadow: 0 0 20px#3456;
+    color: rgb(11, 124, 111);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.todo h1{
+    font-size: 35px;
+    line-height: 0;
+    text-transform: uppercase;
+}
+
+.btn i{
+font-size: 25px;
+padding: 10px;
+}
+.fa-pen-to-square{
+    color: blue;
+}
+.fa-trash{
+    color: crimson;
+}
