@@ -7,10 +7,13 @@
 .inputSection {
   padding: 50px;
 }
-.inputSection form{
-    padding: 50px;
-    box-shadow: 0 0 10px rgba(51, 68, 85, 0.257);
-    border-radius: 10px;
+.inputSection form {
+  padding: 50px;
+  box-shadow: 0 0 10px rgba(51, 68, 85, 0.257);
+  border-radius: 10px;
+}
+.inputSection form p{
+  color: red;
 }
 .inputSection input {
   height: 50px;

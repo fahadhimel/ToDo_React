@@ -22,7 +22,7 @@ const Todos = () => {
         id: new Date().getTime().toString(36),
         name,
       };
-      if (name && name.length > 2) {
+      if (name && name.length > 3) {
         setErrorText("");
         setstate((prev) => {
           return [...prev, newValue];
@@ -56,8 +56,11 @@ const Todos = () => {
   };
 
   const Delete = (id) => {
-    const filterData = state.filter((fil) => fil.id !== id);
-    setstate(()=>filterData);
+    const condition = window.confirm("Are You Sure ?");
+    if (condition) {
+      const filterData = state.filter((fil) => fil.id !== id);
+      setstate(() => filterData);
+    }
   };
 
   return (
